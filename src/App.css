@@ -1,7 +1,92 @@
-/* src/App.css */
+/* Estilos para el contenedor del título */
+.titulo-container {
+  background-color: #424242; /* Fondo gris oscuro */
+  border: 1px solid #000; /* Borde negro */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para el título */
+.titulo {
+  text-align: center; /* Centra el texto */
+  margin: 0; /* Elimina el margen predeterminado */
+  color: #fff; /* Texto blanco */
+}
+
+/* Estilos para las secciones */
 .categorias, .notas, .detalle {
   float: left;
-  width: 33%;
+  width: 33.33%; /* Cambiamos el ancho para dividir en 3 columnas */
   padding: 10px;
   box-sizing: border-box;
+}
+
+/* Estilos para la barra que separa las columnas */
+.separador {
+  border-right: 1px solid #000; /* Borde derecho de 1px sólido negro */
+  height: 100%; /* Altura igual al contenido de la sección */
+}
+
+/* Estilos para la lista de categorías */
+.categorias ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.categorias li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #424242; /* Fondo gris oscuro */
+  color: #fff; /* Texto blanco */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.categorias li:hover {
+  background-color: #606060; /* Color de fondo gris más claro al pasar el ratón */
+}
+
+/* Estilos para la lista de notas */
+.notas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notas li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #f5f5f5; /* Fondo gris hueso */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.notas li:hover {
+  background-color: #e0e0e0; /* Color de fondo gris más claro al pasar el ratón */
+}
+
+/* Estilos para el título de las notas */
+.notas li h3 {
+  margin: 0;
+  padding: 10px;
+  background-color: #ddd; /* Fondo gris claro para el título */
+  border: 1px solid #ccc; /* Borde gris */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.notas li h3:hover {
+  background-color: #ccc; /* Color de fondo gris más claro al pasar el ratón */
+}
+
+/* Estilos para el detalle de la nota */
+.detalle {
+  border: 1px solid #ccc; /* Borde gris */
+  padding: 10px;
+  background-color: #fff; /* Fondo blanco */
+}
+
+/* Estilos para la página */
+body {
+  background-color: #f0f0f0; /* Fondo gris claro */
+  margin: 0; /* Eliminamos los márgenes predeterminados del cuerpo */
+  padding: 0; /* Eliminamos el relleno predeterminado del cuerpo */
 }

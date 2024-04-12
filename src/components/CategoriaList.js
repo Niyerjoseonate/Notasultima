@@ -1,6 +1,7 @@
 // src/components/CategoriaList.js
 import React from 'react';
 
+
 function CategoriaList({ categorias, seleccionarCategoria }) {
   return (
     <div>
