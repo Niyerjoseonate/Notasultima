@@ -1,0 +1,15 @@
+/* src/styles/NotaDetalle.css */
+.NotaDetalle {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .NotaDetalle h2 {
+    margin-top: 0;
+  }
+  
+  .NotaDetalle .botones button {
+    margin-right: 10px;
+  }
+  
